@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<XenotypeDef>
+		<defName>boomer_KitsuneXeno</defName>
+		<label>Kitsune</label>
+		<description>An immortal, all-female mythical fox-humanoid race blessed by the archotechs. Known for their enchanting beauty and ethereal grace, Kitsunes are incapable of violence. Instead, they possess the ability to call upon animals for aid in times of danger.</description>
+		<descriptionShort>An immortal, all-female fox-humanoid race blessed by the gods, known for their beauty and grace, who call upon animals for aid in times of danger.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon4</iconPath>
+		<inheritable>false</inheritable>
+		<genes>
+			<li>Deathless</li>
+			<li>DiseaseFree</li>
+			<li>TotalHealing</li>
+			<li>AnimalWarcall</li>
+			<li>Superclotting</li>
+			<li>MoveSpeed_VeryQuick</li>
+			<li>Mood_Sanguine</li>
+			<li>ViolenceDisabled</li>
+			<li>Sterile</li>
+			<li>Beauty_Beautiful</li>
+			<li>Hair_LongOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Body_Standard</li>
+			<li>AFU_HA_FoxEar</li>
+			<li>AFU_BA_NineTailedFox</li>
+			<li>Hair_Grayless</li>
+		</genes>
+	</XenotypeDef>
+</Defs>
