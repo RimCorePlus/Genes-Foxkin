@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>[b] Kitsunes</name>
-	<description>Immortal foxgirls.</description>
-	<author>boomer</author>
 	<packageId>boomer.kitsune</packageId>
+	<name>[b] Kitsunes</name>
+	<author>boomer</author>
+	<description>Immortal foxgirls.</description>
 	<supportedVersions>
 		<li>1.5</li>
 	</supportedVersions>
+	<modVersion>1.5.0</modVersion>
+	<modIconPath IgnoreIfNoMatchingField="True" />
+	<url />
 	<modDependencies>
 		<li>
 			<packageId>Ludeon.RimWorld.Biotech</packageId>
@@ -29,10 +32,12 @@
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3249501807</steamWorkshopUrl>
 		</li>
 	</modDependencies>
+	<loadBefore />
 	<loadAfter>
 		<li>Ludeon.RimWorld.Biotech</li>
 		<li>boomer.patches</li>
 		<li>jintuzilamian.gene.xenocosmetic</li>
 		<li>rearden.maleandfemaleonlygenes</li>
 	</loadAfter>
+	<incompatibleWith />
 </ModMetaData>
