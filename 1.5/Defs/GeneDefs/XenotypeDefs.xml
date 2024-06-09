@@ -3,7 +3,7 @@
 	<!--firefox-->
 	<XenotypeDef>
 		<defName>boomer_FirefoxXeno</defName>
-		<label>foxgirl</label>
+		<label>Firefox</label>
 		<description>Firefox.</description>
 		<descriptionShort>Firefox.</descriptionShort>
 		<iconPath>UI/Icons/Foxgirl_Xenotype</iconPath>
@@ -25,7 +25,7 @@
 	<!--snowfox-->
 	<XenotypeDef>
 		<defName>boomer_SnowfoxXeno</defName>
-		<label>foxgirl</label>
+		<label>Snowfox</label>
 		<description>Snowfox.</description>
 		<descriptionShort>Snowfox.</descriptionShort>
 		<iconPath>UI/Icons/Foxgirl_Xenotype</iconPath>

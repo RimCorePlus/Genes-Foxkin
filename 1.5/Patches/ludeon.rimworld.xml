@@ -1,0 +1,17 @@
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/FactionDef[defName="TribeCivil" or
+                defName="TribeRough" or
+                defName="TribeSavage" or
+				defName="TribeCannibal" or
+				defName="NudistTribe"]/xenotypeSet/xenotypeChances</xpath>
+				<value>
+					<boomer_FirefoxXeno>0.05</boomer_FirefoxXeno>
+					<boomer_SnowfoxXeno>0.05</boomer_SnowfoxXeno>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
