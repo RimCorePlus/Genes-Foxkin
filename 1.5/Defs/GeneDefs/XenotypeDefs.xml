@@ -8,8 +8,6 @@
 		<descriptionShort>Firefox.</descriptionShort>
 		<iconPath>UI/Icons/Foxgirl_Xenotype</iconPath>
 		<inheritable>true</inheritable>
-		<nameMaker>NamerPersonFoxgirl</nameMaker>
-		<chanceToUseNameMaker>1</chanceToUseNameMaker>
 		<doubleXenotypeChances>
 			<boomer_KitsuneXeno>0.01</boomer_KitsuneXeno>
 		</doubleXenotypeChances>
@@ -32,8 +30,6 @@
 		<descriptionShort>Snowfox.</descriptionShort>
 		<iconPath>UI/Icons/Foxgirl_Xenotype</iconPath>
 		<inheritable>true</inheritable>
-		<nameMaker>NamerPersonFoxgirl</nameMaker>
-		<chanceToUseNameMaker>1</chanceToUseNameMaker>
 		<doubleXenotypeChances>
 			<boomer_KitsuneXeno>0.01</boomer_KitsuneXeno>
 		</doubleXenotypeChances>
@@ -57,8 +53,6 @@
 		<iconPath>UI/Icons/Foxgirl_Xenotype</iconPath>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
 		<inheritable>true</inheritable>
-		<nameMaker>NamerPersonFoxgirl</nameMaker>
-		<chanceToUseNameMaker>1</chanceToUseNameMaker>
 		<genes>
 			<li>Deathless</li>
 			<li>DiseaseFree</li>
