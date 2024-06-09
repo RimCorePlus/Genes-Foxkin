@@ -4,18 +4,16 @@
 	<XenotypeDef>
 		<defName>FirefoxXeno</defName>
 		<label>Firefox</label>
-		<description>Firefox.</description>
-		<descriptionShort>Firefox.</descriptionShort>
+		<description>Foxkin are genetically modified xenohumans of unknown origin, characterized by their fox ears and fox tails. They require more sleep than baseliners but fare better in lower temperatures.\n\nThis particular geneline feels half as much pain as a baseliner.</description>
+		<descriptionShort>Foxkin require more sleep than baseliners but fare better in lower temperatures. This particular geneline feels half as much pain as a baseliner.</descriptionShort>
 		<iconPath>UI/Icons/Foxgirl_Xenotype</iconPath>
 		<inheritable>true</inheritable>
 		<doubleXenotypeChances>
-			<KitsuneXeno>0.01</KitsuneXeno>
+			<KitsuneXeno>0.015</KitsuneXeno>
 		</doubleXenotypeChances>
 		<genes>
 			<li>Sleepy</li>
 			<li>Pain_Reduced</li>
-			<li>FemaleOnly</li>
-			<li>Hair_LongOnly</li>
 			<li>Body_Standard</li>
 			<li>AFU_HA_FoxEar</li>
 			<li>Hair_LightOrange</li>
@@ -26,18 +24,16 @@
 	<XenotypeDef>
 		<defName>SnowfoxXeno</defName>
 		<label>Snowfox</label>
-		<description>Snowfox.</description>
-		<descriptionShort>Snowfox.</descriptionShort>
+		<description>Foxkin are genetically modified xenohumans of unknown origin, characterized by their fox ears and fox tails. They require more sleep than baseliners but fare better in lower temperatures.\n\nThis particular geneline prefers cold biomes.</description>
+		<descriptionShort>Foxkin require more sleep than baseliners but fare better in lower temperatures. This particular geneline prefers cold biomes.</descriptionShort>
 		<iconPath>UI/Icons/Foxgirl_Xenotype</iconPath>
 		<inheritable>true</inheritable>
 		<doubleXenotypeChances>
-			<KitsuneXeno>0.01</KitsuneXeno>
+			<KitsuneXeno>0.015</KitsuneXeno>
 		</doubleXenotypeChances>
 		<genes>
 			<li>MinTemp_SmallDecrease</li>
 			<li>Sleepy</li>
-			<li>FemaleOnly</li>
-			<li>Hair_LongOnly</li>
 			<li>Body_Standard</li>
 			<li>AFU_HA_FoxEar</li>
 			<li>Hair_SnowWhite</li>
@@ -48,8 +44,8 @@
 	<XenotypeDef>
 		<defName>KitsuneXeno</defName>
 		<label>kitsune</label>
-		<description>Kitsune.</description>
-		<descriptionShort>Kitsune.</descriptionShort>
+		<description>Kitsune are a rare and beautiful female Foxkin geneline, gifted with near-immortality by the archotechs. They are scarless, possess perfect immunities, do not experience age-related ailments, and can only be killed if their brain is destroyed. Kitsune grow more tails as they age. In times of need, they can call on animals to fight by their side.</description>
+		<descriptionShort>Kitsune are a rare and beautiful female Foxkin geneline gifted with near-immortality, perfect immunities, and the ability to summon animals to their aid. They are scarless, do not age, and can only be killed by destroying their brain.</descriptionShort>
 		<iconPath>UI/Icons/Foxgirl_Xenotype</iconPath>
 		<factionlessGenerationWeight>0</factionlessGenerationWeight>
 		<inheritable>true</inheritable>
