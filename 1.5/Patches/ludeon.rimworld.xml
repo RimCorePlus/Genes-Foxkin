@@ -8,8 +8,8 @@
 				defName="TribeCannibal" or
 				defName="NudistTribe"]/xenotypeSet/xenotypeChances</xpath>
 				<value>
-					<boomer_FirefoxXeno>0.05</boomer_FirefoxXeno>
-					<boomer_SnowfoxXeno>0.05</boomer_SnowfoxXeno>
+					<FirefoxXeno>0.05</FirefoxXeno>
+					<SnowfoxXeno>0.05</SnowfoxXeno>
 				</value>
 			</li>
 		</operations>

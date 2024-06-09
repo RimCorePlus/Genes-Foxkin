@@ -2,14 +2,14 @@
 <Defs>
 	<!--firefox-->
 	<XenotypeDef>
-		<defName>boomer_FirefoxXeno</defName>
+		<defName>FirefoxXeno</defName>
 		<label>Firefox</label>
 		<description>Firefox.</description>
 		<descriptionShort>Firefox.</descriptionShort>
 		<iconPath>UI/Icons/Foxgirl_Xenotype</iconPath>
 		<inheritable>true</inheritable>
 		<doubleXenotypeChances>
-			<boomer_KitsuneXeno>0.01</boomer_KitsuneXeno>
+			<KitsuneXeno>0.01</KitsuneXeno>
 		</doubleXenotypeChances>
 		<genes>
 			<li>Sleepy</li>
@@ -24,14 +24,14 @@
 	</XenotypeDef>
 	<!--snowfox-->
 	<XenotypeDef>
-		<defName>boomer_SnowfoxXeno</defName>
+		<defName>SnowfoxXeno</defName>
 		<label>Snowfox</label>
 		<description>Snowfox.</description>
 		<descriptionShort>Snowfox.</descriptionShort>
 		<iconPath>UI/Icons/Foxgirl_Xenotype</iconPath>
 		<inheritable>true</inheritable>
 		<doubleXenotypeChances>
-			<boomer_KitsuneXeno>0.01</boomer_KitsuneXeno>
+			<KitsuneXeno>0.01</KitsuneXeno>
 		</doubleXenotypeChances>
 		<genes>
 			<li>MinTemp_SmallDecrease</li>
@@ -46,7 +46,7 @@
 	</XenotypeDef>
 	<!--kitsune-->
 	<XenotypeDef>
-		<defName>boomer_KitsuneXeno</defName>
+		<defName>KitsuneXeno</defName>
 		<label>kitsune</label>
 		<description>Kitsune.</description>
 		<descriptionShort>Kitsune.</descriptionShort>
