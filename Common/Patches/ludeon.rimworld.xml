@@ -2,7 +2,7 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/FactionDef[defName="TribeCivil" or defName="TribeRough" or defName="TribeSavage" or defName="TribeCannibal" or defName="NudistTribe"]/xenotypeSet/xenotypeChances</xpath>
+				<xpath>//FactionDef[@Name="TribeBase"]/xenotypeSet/xenotypeChances</xpath>
 				<value>
 					<FirefoxXeno>0.05</FirefoxXeno>
 					<SnowfoxXeno>0.05</SnowfoxXeno>
