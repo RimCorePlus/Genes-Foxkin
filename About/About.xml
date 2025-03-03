@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<packageId>boomer.kitsune</packageId>
+	<name>foxes</name>
+	<author>boomer</author>
+	<description>Immortal foxgirls. Needs descriptions.</description>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<modVersion>1.5.0</modVersion>
+	<modIconPath IgnoreIfNoMatchingField="True" />
+	<url>https://github.com/boomersama/boomer.kitsune</url>
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Biotech</packageId>
+			<displayName>Biotech</displayName>
+			<steamWorkshopUrl>BiotechsSteamStorePage</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>boomer.patches</packageId>
+			<displayName>fried rice</displayName>
+			<downloadUrl>https://github.com/boomerchan/boomer.patches</downloadUrl>
+		</li>
+		<li>
+			<packageId>boomer.genes</packageId>
+			<displayName>gene expansion</displayName>
+			<downloadUrl>https://github.com/boomerchan/boomer.genes</downloadUrl>
+		</li>
+		<li>
+			<packageId>jintuzilamian.gene.xenocosmetic</packageId>
+			<displayName>AFU Cosmetic Gene Expanded</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2880942803</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadBefore />
+	<loadAfter>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>boomer.patches</li>
+		<li>boomer.genes</li>
+		<li>jintuzilamian.gene.xenocosmetic</li>
+	</loadAfter>
+	<incompatibleWith />
+</ModMetaData>
