@@ -1,5 +1,5 @@
 <ModMetaData>
-	<packageId>boomer.kitsune</packageId>
+	<packageId>friedrice.foxgirls</packageId>
 	<name>foxgirl expansion</name>
 	<author>boomer</author>
 	<description>Immortal foxgirls. Needs descriptions.</description>
@@ -8,7 +8,7 @@
 	</supportedVersions>
 	<modVersion>1.5.0</modVersion>
 	<modIconPath IgnoreIfNoMatchingField="True" />
-	<url>https://github.com/boomersama/boomer.kitsune</url>
+	<url>https://github.com/friedriceworld/foxgirl-expansion</url>
 	<modDependencies>
 		<li>
 			<packageId>Ludeon.RimWorld.Biotech</packageId>
@@ -16,14 +16,14 @@
 			<steamWorkshopUrl>BiotechsSteamStorePage</steamWorkshopUrl>
 		</li>
 		<li>
-			<packageId>boomer.patches</packageId>
+			<packageId>friedrice.patches</packageId>
 			<displayName>fried rice</displayName>
-			<downloadUrl>https://github.com/boomerchan/boomer.patches</downloadUrl>
+			<downloadUrl>https://github.com/friedriceworld/fried-rice</downloadUrl>
 		</li>
 		<li>
-			<packageId>boomer.genes</packageId>
+			<packageId>friedrice.genes</packageId>
 			<displayName>gene expansion</displayName>
-			<downloadUrl>https://github.com/boomerchan/boomer.genes</downloadUrl>
+			<downloadUrl>https://github.com/friedriceworld/gene-expansion</downloadUrl>
 		</li>
 		<li>
 			<packageId>jintuzilamian.gene.xenocosmetic</packageId>
@@ -34,8 +34,8 @@
 	<loadBefore />
 	<loadAfter>
 		<li>Ludeon.RimWorld.Biotech</li>
-		<li>boomer.patches</li>
-		<li>boomer.genes</li>
+		<li>friedrice.patches</li>
+		<li>friedrice.genes</li>
 		<li>jintuzilamian.gene.xenocosmetic</li>
 	</loadAfter>
 	<incompatibleWith />
