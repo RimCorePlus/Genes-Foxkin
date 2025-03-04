@@ -1,4 +1,6 @@
 # foxgirl expansion
+![](About/Preview.png)
+
 Scope of this mod:
 - Add foxgirls to tribal factions
 
