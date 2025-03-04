@@ -5,8 +5,8 @@ Scope of this mod:
 - Add foxgirls to tribal factions
 
 ## Additions
-- Adds firefox and snowfox xenotypes to tribal factions
-- Adds rare archogene kitsune xenotype
+- Firefox and snowfox xenotypes to tribal factions
+- Rare archogene kitsune xenotype (1% of foxkin spawn as kitsune)
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
