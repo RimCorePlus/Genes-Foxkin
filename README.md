@@ -20,7 +20,7 @@ Scope of this mod:
 - Firefox and snowfox xenotypes to tribal factions
 - Rare archogene kitsune xenotype (1% of foxkin spawn as kitsune)
 
-# Version 1.0:
+## Version 1.0:
 - [ ] Add recluse gene to foxkin
 - [ ] Reduce commonality and add a deserter-like intro quest
 
