@@ -8,7 +8,7 @@
 	</supportedVersions>
 	<modVersion>1.5.0</modVersion>
 	<modIconPath IgnoreIfNoMatchingField="True" />
-	<url>https://github.com/friedriceworld/foxgirl-expansion</url>
+	<url>https://github.com/RimCorePlus/Foxgirls</url>
 	<modDependencies>
 		<li>
 			<packageId>Ludeon.RimWorld.Biotech</packageId>
@@ -18,7 +18,7 @@
 		<li>
 			<packageId>coreplus.genes</packageId>
 			<displayName>gene expansion</displayName>
-			<downloadUrl>https://github.com/friedriceworld/gene-expansion</downloadUrl>
+			<downloadUrl>https://github.com/RimCorePlus/Genes</downloadUrl>
 		</li>
 		<li>
 			<packageId>jintuzilamian.gene.xenocosmetic</packageId>
