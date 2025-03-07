@@ -1,6 +1,6 @@
 <ModMetaData>
-	<packageId>friedrice.foxgirls</packageId>
-	<name>foxgirl expansion</name>
+	<packageId>coreplus.foxgirls</packageId>
+	<name>[Core+] Foxgirls</name>
 	<author>boomer</author>
 	<description />
 	<supportedVersions>
@@ -16,12 +16,7 @@
 			<steamWorkshopUrl>BiotechsSteamStorePage</steamWorkshopUrl>
 		</li>
 		<li>
-			<packageId>friedrice.patches</packageId>
-			<displayName>fried rice</displayName>
-			<downloadUrl>https://github.com/friedriceworld/fried-rice</downloadUrl>
-		</li>
-		<li>
-			<packageId>friedrice.genes</packageId>
+			<packageId>coreplus.genes</packageId>
 			<displayName>gene expansion</displayName>
 			<downloadUrl>https://github.com/friedriceworld/gene-expansion</downloadUrl>
 		</li>
@@ -33,9 +28,9 @@
 	</modDependencies>
 	<loadBefore />
 	<loadAfter>
-		<li>friedrice.patches</li>
-		<li>friedrice.noegg</li>
-		<li>friedrice.genes</li>
+		<li>coreplus.rebalance</li>
+		<li>coreplus.debloat</li>
+		<li>coreplus.genes</li>
 		<li>jintuzilamian.gene.xenocosmetic</li>
 	</loadAfter>
 	<incompatibleWith />
