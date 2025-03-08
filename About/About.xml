@@ -1,6 +1,6 @@
 <ModMetaData>
-	<packageId>coreplus.foxgirls</packageId>
-	<name>[Core+] Foxgirls</name>
+	<packageId>coreplus.genes.foxgirls</packageId>
+	<name>[Core+] Genes - Foxgirls</name>
 	<author>boomer</author>
 	<description />
 	<supportedVersions>
@@ -8,7 +8,7 @@
 	</supportedVersions>
 	<modVersion>1.5.0</modVersion>
 	<modIconPath IgnoreIfNoMatchingField="True" />
-	<url>https://github.com/RimCorePlus/Foxgirls</url>
+	<url>https://github.com/RimCorePlus/Genes-Foxgirls</url>
 	<modDependencies>
 		<li>
 			<packageId>Ludeon.RimWorld.Biotech</packageId>
@@ -17,7 +17,7 @@
 		<li>
 			<packageId>coreplus.genes</packageId>
 			<displayName>gene expansion</displayName>
-			<downloadUrl>https://github.com/RimCorePlus/Genes</downloadUrl>
+			<downloadUrl>https://github.com/RimCorePlus/Genes-Genes</downloadUrl>
 		</li>
 		<li>
 			<packageId>jintuzilamian.gene.xenocosmetic</packageId>
