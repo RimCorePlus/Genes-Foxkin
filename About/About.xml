@@ -1,6 +1,6 @@
 <ModMetaData>
-	<packageId>coreplus.genes.foxgirls</packageId>
-	<name>[Core+] Genes - Foxgirls</name>
+	<packageId>coreplus.genes.foxkin</packageId>
+	<name>[Core+] Genes - Foxkin</name>
 	<author>boomer</author>
 	<description />
 	<supportedVersions>
@@ -8,7 +8,7 @@
 	</supportedVersions>
 	<modVersion>1.5.0</modVersion>
 	<modIconPath IgnoreIfNoMatchingField="True" />
-	<url>https://github.com/RimCorePlus/Genes-Foxgirls</url>
+	<url>https://github.com/RimCorePlus/Genes-Foxkin</url>
 	<modDependencies>
 		<li>
 			<packageId>Ludeon.RimWorld.Biotech</packageId>
