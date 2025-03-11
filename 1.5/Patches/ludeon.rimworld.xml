@@ -24,8 +24,8 @@
 			<li Class="PatchOperationAdd">
 				<xpath>//FactionDef[@Name="TribeBase"]/xenotypeSet/xenotypeChances</xpath>
 				<value>
-					<FirefoxXeno>0.05</FirefoxXeno>
-					<SnowfoxXeno>0.05</SnowfoxXeno>
+					<CorePlus_Firefox>0.05</CorePlus_Firefox>
+					<CorePlus_Snowfox>0.05</CorePlus_Snowfox>
 				</value>
 			</li>
 		</operations>
