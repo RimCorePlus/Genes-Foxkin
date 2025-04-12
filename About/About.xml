@@ -20,17 +20,17 @@
 			<downloadUrl>https://github.com/RimCorePlus/Genes-Genes</downloadUrl>
 		</li>
 		<li>
-			<packageId>jintuzilamian.gene.xenocosmetic</packageId>
-			<displayName>AFU Cosmetic Gene Expanded</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2880942803</steamWorkshopUrl>
+			<packageId>neronix17.outland.genetics</packageId>
+			<displayName>Outland - Genetics</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2910172297</steamWorkshopUrl>
 		</li>
 	</modDependencies>
 	<loadBefore />
 	<loadAfter>
-		<li>coreplus.rebalance</li>
-		<li>coreplus.debloat</li>
+		<li>boomer.debloat</li>
 		<li>coreplus.genes</li>
-		<li>jintuzilamian.gene.xenocosmetic</li>
+		<li>coreplus.rebalance</li>
+		<li>neronix17.outland.genetics</li>
 	</loadAfter>
 	<incompatibleWith />
 </ModMetaData>

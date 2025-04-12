@@ -14,9 +14,10 @@
 			<li>Sleepy</li>
 			<li>Pain_Reduced</li>
 			<li>Body_Standard</li>
-			<li>AFU_HA_FoxEar</li>
+			<li>Outland_Ears_Foxie</li>
 			<li>Hair_LightOrange</li>
-			<li>AFU_BA_FluffyFoxTail</li>
+			<li>Outland_Tail_Curly</li>
+			<li>Outland_Tail_Spray</li>
 		</genes>
 	</XenotypeDef>
 	<!--snowfox-->
@@ -34,12 +35,13 @@
 			<li>MinTemp_SmallDecrease</li>
 			<li>Sleepy</li>
 			<li>Body_Standard</li>
-			<li>AFU_HA_FoxEar</li>
+			<li>Outland_Ears_Foxie</li>
 			<li>Hair_SnowWhite</li>
-			<li>AFU_BA_FluffyFoxTail</li>
+			<li>Outland_Tail_Curly</li>
+			<li>Outland_Tail_Spray</li>
 		</genes>
 	</XenotypeDef>
-	<!--kitsune-->
+	<!--kitsune (idk about this one anymore)
 	<XenotypeDef>
 		<defName>CorePlus_Kitsune</defName>
 		<label>kitsune</label>
@@ -65,5 +67,5 @@
 			<li>AFU_BA_NineTailedFox</li>
 			<li>Hair_Grayless</li>
 		</genes>
-	</XenotypeDef>
+	</XenotypeDef>-->
 </Defs>
