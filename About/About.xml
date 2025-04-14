@@ -1,8 +1,8 @@
 <ModMetaData>
 	<packageId>coreplus.genes.foxkin</packageId>
-	<name>[Core+] Genes - Foxkin</name>
+	<name>[Core+] Genes - Foxkin (Deprecated)</name>
 	<author>boomer</author>
-	<description />
+	<description>This was designed to be minimal, but it never added anything meaningful to any of my playthroughs. I haven't found a way to make it fun and other mod authors have done a much better job at implementing the concept. Dropping support for this one.</description>
 	<supportedVersions>
 		<li>1.5</li>
 	</supportedVersions>
@@ -19,11 +19,11 @@
 			<displayName>gene expansion</displayName>
 			<downloadUrl>https://github.com/RimCorePlus/Genes-Genes</downloadUrl>
 		</li>
-		<li>
+		<!--<li>
 			<packageId>neronix17.outland.genetics</packageId>
 			<displayName>Outland - Genetics</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2910172297</steamWorkshopUrl>
-		</li>
+		</li>-->
 	</modDependencies>
 	<loadBefore />
 	<loadAfter>
