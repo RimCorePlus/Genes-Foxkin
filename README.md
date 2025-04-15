@@ -9,12 +9,11 @@
 <!--![Supports Anomaly][badge-dlc-anomaly] supports Anomaly DLC-->
 [badge-dlc-anomaly]: https://img.shields.io/badge/DLC-Anomaly-darkseagreen
 
-# [Core+] Genes - Foxkin
+# [CorePlus] Genes - Foxkin
 ![](About/Preview.png)\
 [![GPLv3][badge-license]](https://www.gnu.org/licenses/gpl-3.0) ![Supports Biotech][badge-dlc-biotech]
 
-Scope of this mod:
-- Add foxkin to tribal factions
+Deprecated.
 
 ## Additions
 - Firefox and snowfox xenotypes to tribal factions
