@@ -1,0 +1,79 @@
+<Defs>
+    <GeneDef>
+        <defName>CorePlus_FoxkinGene</defName>
+        <label>vulpette</label>
+        <description />
+        <iconPath>UI/Icons/Xenotypes/Foxkin</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>999</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <customEffectDescriptions>
+            <li>Always female.</li>
+            <li>10% increased global skill decay.</li>
+            <li>No medical skill decay.</li>
+        </customEffectDescriptions>
+        <forcedHeadTypes>
+            <li>Female_AverageNormal</li>
+            <li>Female_AveragePointy</li>
+        </forcedHeadTypes>
+        <bodyType>Standard</bodyType>
+        <modExtensions>
+            <li Class="VanillaGenesExpanded.GeneExtension">
+                <forceFemale>true</forceFemale>
+                <globalSkillLossMultiplier>0.1</globalSkillLossMultiplier>
+                <noSkillLoss>Medicine</noSkillLoss>
+            </li>
+        </modExtensions>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>fox</symbol>
+                </li>
+                <li>
+                    <symbol>vulp</symbol>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+        <exclusionTags>
+            <li>AG_Gender</li>
+            <li>BodyType</li>
+            <li>Gender</li>
+        </exclusionTags>
+    </GeneDef>
+    <GeneDef>
+        <defName>CorePlus_LickWounds</defName>
+        <label>lick wounds</label>
+        <description>Carriers of this gene have powerful antibodies in their saliva capable of healing wounds and boosting immunity. These antibodies take time to recover.</description>
+        <iconPath>UI/Icons/Genes/Gene_LickWound</iconPath>
+        <displayCategory>Ability</displayCategory>
+        <abilities>
+            <li>CorePlus_LickWounds</li>
+        </abilities>
+        <descriptionHyperlinks>
+            <AbilityDef>CorePlus_LickWounds</AbilityDef>
+        </descriptionHyperlinks>
+        <biostatMet>-2</biostatMet>
+        <biostatCpx>1</biostatCpx>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>heal</symbol>
+                </li>
+                <li>
+                    <symbol>tend</symbol>
+                </li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li>
+                    <symbol>licker</symbol>
+                </li>
+                <li>
+                    <symbol>spit</symbol>
+                </li>
+                <li>
+                    <symbol>tongue</symbol>
+                </li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+</Defs>

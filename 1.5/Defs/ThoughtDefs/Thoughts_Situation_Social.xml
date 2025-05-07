@@ -1,0 +1,32 @@
+<Defs>
+    <ThoughtDef>
+        <defName>CorePlus_GotWoundsLicked</defName>
+        <durationDays>30</durationDays>
+        <stackLimit>300</stackLimit>
+        <stackLimitForSameOtherPawn>3</stackLimitForSameOtherPawn>
+        <stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+        <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+        <nullifyingHediffs>
+            <li MayRequire="Ludeon.RimWorld.Anomaly">Inhumanized</li>
+        </nullifyingHediffs>
+        <stages>
+            <li>
+                <label>wounds licked</label>
+                <description>Someone licked my wounds! I'm so thankful.</description>
+                <baseMoodEffect>2</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef>
+        <defName>CorePlus_LickedWounds</defName>
+        <durationDays>1</durationDays>
+        <stackLimit>5</stackLimit>
+        <stages>
+            <li>
+                <label>licked wounds</label>
+                <description>I licked someone's bloody wounds. Gross!</description>
+                <baseMoodEffect>-2</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+</Defs>

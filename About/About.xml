@@ -1,36 +1,37 @@
 <ModMetaData>
 	<packageId>coreplus.genes.foxkin</packageId>
-	<name>[Core+] Genes - Foxkin (Deprecated)</name>
+	<name>[CorePlus] Genes - Foxkin</name>
 	<author>boomer</author>
-	<description>This was designed to be minimal, but it never added anything meaningful to any of my playthroughs. I haven't found a way to make it fun and other mod authors have done a much better job at implementing the concept. Dropping support for this one.</description>
+	<description />
 	<supportedVersions>
 		<li>1.5</li>
 	</supportedVersions>
-	<modVersion>1.5.0</modVersion>
+	<modVersion />
 	<modIconPath IgnoreIfNoMatchingField="True" />
 	<url>https://github.com/RimCorePlus/Genes-Foxkin</url>
+	<descriptionsByVersion />
 	<modDependencies>
 		<li>
 			<packageId>Ludeon.RimWorld.Biotech</packageId>
 			<displayName>Biotech</displayName>
 		</li>
 		<li>
-			<packageId>coreplus.genes</packageId>
-			<displayName>gene expansion</displayName>
-			<downloadUrl>https://github.com/RimCorePlus/Genes-Genes</downloadUrl>
+			<packageId>jintuzilamian.gene.xenocosmetic</packageId>
+			<displayName>AFU Cosmetic Gene Expanded</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2880942803</steamWorkshopUrl>
 		</li>
-		<!--<li>
-			<packageId>neronix17.outland.genetics</packageId>
-			<displayName>Outland - Genetics</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2910172297</steamWorkshopUrl>
-		</li>-->
 	</modDependencies>
+	<modDependenciesByVersion />
 	<loadBefore />
+	<loadBeforeByVersion />
+	<forceLoadBefore />
 	<loadAfter>
 		<li>boomer.debloat</li>
 		<li>coreplus.genes</li>
 		<li>coreplus.rebalance</li>
-		<li>neronix17.outland.genetics</li>
 	</loadAfter>
+	<loadAfterByVersion />
+	<forceLoadAfter />
 	<incompatibleWith />
+	<incompatibleWithByVersion />
 </ModMetaData>

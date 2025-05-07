@@ -3,69 +3,40 @@
 	<XenotypeDef>
 		<defName>CorePlus_Firefox</defName>
 		<label>Firefox</label>
-		<description>Foxkin are genetically modified xenohumans of unknown origin, characterized by their foxlike ears and tails.\n\nThis particular geneline is more resilient to pain that baseline humans.</description>
-		<descriptionShort>Genetically modified xenohumans with foxlike ears and tails. This particular geneline feels half as much pain as a baseliner.</descriptionShort>
+		<description>Foxkin are xenohumans of unknown origin, easily distinguishable by their foxlike ears and tails. Their salivary glands produce powerful antibodies capable of closing wounds and boosting immunity.\n\nThough they are lousy in combat, they can call animals to their aid.</description>
+		<descriptionShort>Fox-like xenohumans with antigenic saliva.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/Foxkin</iconPath>
 		<inheritable>true</inheritable>
-		<doubleXenotypeChances>
-			<CorePlus_Kitsune>0.02</CorePlus_Kitsune>
-		</doubleXenotypeChances>
 		<genes>
-			<li>Sleepy</li>
-			<li>Pain_Reduced</li>
-			<li>Body_Standard</li>
-			<!--<li>Outland_Ears_Foxie</li>-->
+			<li>AFU_BA_FluffyFoxTail</li>
+			<li>AFU_HA_FoxEar</li>
+			<li>AnimalWarcall</li>
+			<li>CorePlus_FoxkinGene</li>
+			<li>CorePlus_LickWounds</li>
 			<li>Hair_LightOrange</li>
-			<!--<li>Outland_Tail_Curly</li>-->
-			<!--<li>Outland_Tail_Spray</li>-->
+			<li>MeleeDamage_Weak</li>
+			<li>Nearsighted</li>
+			<li>Sleepy</li>
 		</genes>
 	</XenotypeDef>
 	<!--snowfox-->
 	<XenotypeDef>
 		<defName>CorePlus_Snowfox</defName>
 		<label>Snowfox</label>
-		<description>Foxkin are genetically modified xenohumans of unknown origin, characterized by their foxlike ears and tails.\n\nThis particular geneline prefers cold climates.</description>
-		<descriptionShort>Genetically modified xenohumans with foxlike ears and tails. This particular geneline prefers cold biomes.</descriptionShort>
+		<description>Foxkin are xenohumans of unknown origin, easily distinguishable by their foxlike ears and tails. Their salivary glands produce powerful antibodies capable of closing wounds and boosting immunity.\n\nThough they are lousy in combat, they can call animals to their aid.</description>
+		<descriptionShort>Fox-like xenohumans with antigenic saliva.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/Foxkin</iconPath>
 		<inheritable>true</inheritable>
-		<doubleXenotypeChances>
-			<CorePlus_Kitsune>0.02</CorePlus_Kitsune>
-		</doubleXenotypeChances>
 		<genes>
-			<li>MinTemp_SmallDecrease</li>
-			<li>Sleepy</li>
-			<li>Body_Standard</li>
-			<!--<li>Outland_Ears_Foxie</li>-->
+			<li>AFU_BA_FluffyFoxTail</li>
+			<li>AFU_HA_FoxEar</li>
+			<li>AnimalWarcall</li>
+			<li>CorePlus_FoxkinGene</li>
+			<li>CorePlus_LickWounds</li>
 			<li>Hair_SnowWhite</li>
-			<!--<li>Outland_Tail_Curly</li>-->
-			<!--<li>Outland_Tail_Spray</li>-->
+			<li>MeleeDamage_Weak</li>
+			<li>Nearsighted</li>
+			<li>Sleepy</li>
 		</genes>
 	</XenotypeDef>
-	<!--kitsune (idk about this one anymore)
-	<XenotypeDef>
-		<defName>CorePlus_Kitsune</defName>
-		<label>kitsune</label>
-		<description>Kitsune are a rare and beautiful female Foxkin geneline, gifted with near-immortality by the archotechs. They are scarless, possess perfect immunities, do not experience age-related ailments, and can only be killed if their brain is destroyed. Kitsune grow more tails as they age. In times of need, they can call on animals to fight by their side.</description>
-		<descriptionShort>Kitsune are a rare and beautiful female Foxkin geneline gifted with near-immortality, perfect immunities, and the ability to summon animals to their aid. They can only be killed by destroying their brain.</descriptionShort>
-		<iconPath>UI/Icons/Xenotypes/Foxkin</iconPath>
-		<factionlessGenerationWeight>0</factionlessGenerationWeight>
-		<inheritable>true</inheritable>
-		<genes>
-			<li>Deathless</li>
-			<li>DiseaseFree</li>
-			<li>PerfectImmunity</li>
-			<li>TotalHealing</li>
-			<li>AnimalWarcall</li>
-			<li>PsychicAbility_Extreme</li>
-			<li>Aggression_DeadCalm</li>
-			<li>CorePlus_AlwaysFemale</li>
-			<li>Sterile</li>
-			<li>Beauty_Beautiful</li>
-			<li>Hair_LongOnly</li>
-			<li>Body_Standard</li>
-			<li>AFU_HA_FoxEar</li>
-			<li>AFU_BA_NineTailedFox</li>
-			<li>Hair_Grayless</li>
-		</genes>
-	</XenotypeDef>-->
 </Defs>
