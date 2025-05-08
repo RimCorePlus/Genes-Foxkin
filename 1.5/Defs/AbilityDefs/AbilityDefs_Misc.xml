@@ -5,8 +5,8 @@
         <description>Lick a target's wounds with antigenic saliva, healing their wounds and boosting their immunity for a short time.</description>
         <iconPath>UI/Icons/Genes/Gene_LickWound</iconPath>
         <stunTargetWhileCasting>true</stunTargetWhileCasting>
-        <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
-        <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+        <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+        <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
         <warmupMote>Mote_CoagulateStencil</warmupMote>
         <warmupEffecter>Coagulate</warmupEffecter>
         <warmupStartSound>Coagulate_Cast</warmupStartSound>

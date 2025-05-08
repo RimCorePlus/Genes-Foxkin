@@ -3,7 +3,7 @@
         <defName>CorePlus_LickedWounds</defName>
         <label>lick wounds</label>
         <workerClass>InteractionWorker</workerClass>
-        <ignoreTimeSinceLastInteraction>True</ignoreTimeSinceLastInteraction>
+        <ignoreTimeSinceLastInteraction>true</ignoreTimeSinceLastInteraction>
         <symbol>UI/Icons/Genes/Gene_LickWound</symbol>
         <initiatorThought>CorePlus_LickedWounds</initiatorThought>
         <recipientThought>CorePlus_GotWoundsLicked</recipientThought>
