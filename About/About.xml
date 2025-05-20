@@ -28,7 +28,7 @@
 	<loadAfter>
 		<li>boomer.debloat</li>
 		<li>coreplus.genes</li>
-		<li>coreplus.rebalance</li>
+		<li>boomer.rebalance</li>
 	</loadAfter>
 	<loadAfterByVersion />
 	<forceLoadAfter />
