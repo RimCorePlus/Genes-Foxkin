@@ -26,4 +26,12 @@
 			<CorePlus_Snowfox>0.05</CorePlus_Snowfox>
 		</value>
 	</Operation>
+	<!--add sanguophage double-xenos-->
+	<Operation Class="PatchOperationAdd">
+		<xpath>//XenotypeDef[defName="Sanguophage"]/doubleXenotypeChances</xpath>
+		<value>
+			<CorePlus_Firefox>0.02</CorePlus_Firefox>
+			<CorePlus_Snowfox>0.02</CorePlus_Snowfox>
+		</value>
+	</Operation>
 </Patch>

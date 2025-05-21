@@ -76,4 +76,27 @@
             </suffixSymbols>
         </symbolPack>
     </GeneDef>
+    <GeneDef>
+        <defName>CorePlus_ResurrectGene</defName>
+        <label>resurrector</label>
+        <description>Carriers of this gene can revive the dead.</description>
+        <iconPath>UI/Abilities/Resurrect</iconPath>
+        <abilities>
+            <li>CorePlus_Resurrect</li>
+        </abilities>
+        <biostatMet>-3</biostatMet>
+        <biostatCpx>1</biostatCpx>
+        <descriptionHyperlinks>
+            <AbilityDef>CorePlus_Resurrect</AbilityDef>
+        </descriptionHyperlinks>
+        <displayCategory>Hemogen</displayCategory>
+        <prerequisite>Hemogenic</prerequisite>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>hemo</symbol>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
 </Defs>
