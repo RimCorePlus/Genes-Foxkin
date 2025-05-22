@@ -18,7 +18,6 @@
 		</li>
 	</modDependencies>
 	<loadAfter>
-		<li>boomer.rebalance</li>
 		<li>coreplus.genes</li>
 		<li>jintuzilamian.gene.xenocosmetic</li>
 	</loadAfter>
