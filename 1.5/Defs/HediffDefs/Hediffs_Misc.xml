@@ -1,6 +1,6 @@
 <Defs>
     <HediffDef>
-        <defName>CorePlus_LickedWounds</defName>
+        <defName>RCP_LickedWounds</defName>
         <label>wounds licked</label>
         <description>Antigenic compounds in the bloodstream.</description>
         <isBad>false</isBad>

@@ -22,16 +22,16 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>//FactionDef[@Name="TribeBase"]/xenotypeSet/xenotypeChances</xpath>
 		<value>
-			<CorePlus_Firefox>0.05</CorePlus_Firefox>
-			<CorePlus_Snowfox>0.05</CorePlus_Snowfox>
+			<RCP_Firefox>0.05</RCP_Firefox>
+			<RCP_Snowfox>0.05</RCP_Snowfox>
 		</value>
 	</Operation>
 	<!--add sanguophage double-xenos-->
 	<Operation Class="PatchOperationAdd">
 		<xpath>//XenotypeDef[defName="Sanguophage"]/doubleXenotypeChances</xpath>
 		<value>
-			<CorePlus_Firefox>0.02</CorePlus_Firefox>
-			<CorePlus_Snowfox>0.02</CorePlus_Snowfox>
+			<RCP_Firefox>0.02</RCP_Firefox>
+			<RCP_Snowfox>0.02</RCP_Snowfox>
 		</value>
 	</Operation>
 </Patch>

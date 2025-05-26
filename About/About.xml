@@ -1,5 +1,5 @@
 <ModMetaData>
-	<packageId>coreplus.genes.foxkin</packageId>
+	<packageId>RCP.Genes.Foxkin</packageId>
 	<name>[RCP] Genes - Foxkin</name>
 	<author>boomer</author>
 	<supportedVersions>
@@ -18,7 +18,7 @@
 		</li>
 	</modDependencies>
 	<loadAfter>
-		<li>coreplus.genes</li>
+		<li>RCP.Genes</li>
 		<li>jintuzilamian.gene.xenocosmetic</li>
 	</loadAfter>
 </ModMetaData>

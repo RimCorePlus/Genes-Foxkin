@@ -1,12 +1,12 @@
 <Defs>
     <InteractionDef>
-        <defName>CorePlus_LickedWounds</defName>
+        <defName>RCP_LickedWounds</defName>
         <label>lick wounds</label>
         <workerClass>InteractionWorker</workerClass>
         <ignoreTimeSinceLastInteraction>true</ignoreTimeSinceLastInteraction>
         <symbol>UI/Icons/Genes/Gene_LickWound</symbol>
-        <initiatorThought>CorePlus_LickedWounds</initiatorThought>
-        <recipientThought>CorePlus_GotWoundsLicked</recipientThought>
+        <initiatorThought>RCP_LickedWounds</initiatorThought>
+        <recipientThought>RCP_GotWoundsLicked</recipientThought>
         <logRulesInitiator>
             <rulesStrings>
                 <li>r_logentry->[INITIATOR_nameDef] licked [RECIPIENT_nameDef]'s wounds, tending them instantly.</li>

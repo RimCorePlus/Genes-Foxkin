@@ -1,6 +1,6 @@
 <Defs>
     <AbilityDef ParentName="AbilityTouchBase">
-        <defName>CorePlus_LickWounds</defName>
+        <defName>RCP_LickWounds</defName>
         <label>lick wounds</label>
         <description>Lick a target's wounds with antigenic saliva, healing their wounds and boosting their immunity for a short time.</description>
         <iconPath>UI/Icons/Genes/Gene_LickWound</iconPath>
@@ -40,15 +40,15 @@
             </li>
             <li Class="CompProperties_AbilityGiveHediff">
                 <compClass>CompAbilityEffect_GiveHediff</compClass>
-                <hediffDef>CorePlus_LickedWounds</hediffDef>
+                <hediffDef>RCP_LickedWounds</hediffDef>
             </li>
             <li Class="CompProperties_AbilitySocialInteraction">
-                <interactionDef>CorePlus_LickedWounds</interactionDef>
+                <interactionDef>RCP_LickedWounds</interactionDef>
             </li>
         </comps>
     </AbilityDef>
     <AbilityDef ParentName="AbilityTouchBase">
-        <defName>CorePlus_Resurrect</defName>
+        <defName>RCP_Resurrect</defName>
         <label>resurrect</label>
         <description>Use archites in the bloodstream to infuse a corpse's body with new life, repairing degenerated cell structures and kickstarting vital functions. The older and worse-preserved the corpse is, the more likely it is that they will come back with memory loss or health conditions. This ability seems to exhaust the archites somehow, so it can only be used very rarely.</description>
         <iconPath>UI/Abilities/Resurrect</iconPath>

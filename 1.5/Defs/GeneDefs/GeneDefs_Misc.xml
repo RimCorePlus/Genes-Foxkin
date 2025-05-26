@@ -1,6 +1,6 @@
 <Defs>
     <GeneDef>
-        <defName>CorePlus_FoxkinGene</defName>
+        <defName>RCP_FoxkinGene</defName>
         <label>vulpette</label>
         <description />
         <iconPath>UI/Icons/Xenotypes/Foxkin</iconPath>
@@ -41,16 +41,16 @@
         </exclusionTags>
     </GeneDef>
     <GeneDef>
-        <defName>CorePlus_LickWounds</defName>
+        <defName>RCP_LickWounds</defName>
         <label>lick wounds</label>
         <description>Carriers of this gene have powerful antibodies in their saliva capable of healing wounds and boosting immunity. These antibodies take time to recover.</description>
         <iconPath>UI/Icons/Genes/Gene_LickWound</iconPath>
         <displayCategory>Ability</displayCategory>
         <abilities>
-            <li>CorePlus_LickWounds</li>
+            <li>RCP_LickWounds</li>
         </abilities>
         <descriptionHyperlinks>
-            <AbilityDef>CorePlus_LickWounds</AbilityDef>
+            <AbilityDef>RCP_LickWounds</AbilityDef>
         </descriptionHyperlinks>
         <biostatMet>-2</biostatMet>
         <biostatCpx>1</biostatCpx>
@@ -77,17 +77,17 @@
         </symbolPack>
     </GeneDef>
     <GeneDef>
-        <defName>CorePlus_ResurrectGene</defName>
+        <defName>RCP_ResurrectGene</defName>
         <label>resurrector</label>
         <description>Carriers of this gene can revive the dead.</description>
         <iconPath>UI/Abilities/Resurrect</iconPath>
         <abilities>
-            <li>CorePlus_Resurrect</li>
+            <li>RCP_Resurrect</li>
         </abilities>
         <biostatMet>-3</biostatMet>
         <biostatCpx>1</biostatCpx>
         <descriptionHyperlinks>
-            <AbilityDef>CorePlus_Resurrect</AbilityDef>
+            <AbilityDef>RCP_Resurrect</AbilityDef>
         </descriptionHyperlinks>
         <displayCategory>Hemogen</displayCategory>
         <prerequisite>Hemogenic</prerequisite>
