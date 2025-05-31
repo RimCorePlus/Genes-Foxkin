@@ -43,10 +43,9 @@
 	<XenotypeDef>
 		<defName>RCP_Hemofox</defName>
 		<label>Hemofox</label>
-		<description>Foxkin are xenohumans of unknown origin, easily distinguishable by their foxlike ears and tails. Their salivary glands produce powerful antibodies capable of closing wounds and boosting immunity.\n\nThis is a rare genetic variant of unknown origins, capable of resurrecting the dead.</description>
+		<description>Foxkin are xenohumans of unknown origin, easily distinguishable by their foxlike ears and tails. Their salivary glands produce powerful antibodies capable of closing wounds and boosting immunity.\n\nThis is a rare variant of unknown origin, capable of resurrecting the dead.</description>
 		<descriptionShort>Fox-like xenohumans with antigenic saliva.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/Foxkin</iconPath>
-		<inheritable>true</inheritable>
 		<genes>
 			<li MayRequire="oppey.eyegenes2">Eyes_Crimson</li>
 			<li MayRequire="oppey.eyegenes2">Eyes_DeepRed</li>
