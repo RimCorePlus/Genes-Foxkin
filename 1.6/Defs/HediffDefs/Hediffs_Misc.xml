@@ -1,0 +1,24 @@
+<Defs>
+    <HediffDef>
+        <defName>RCP_LickedWounds</defName>
+        <label>wounds licked</label>
+        <description>Antigenic compounds in the bloodstream.</description>
+        <isBad>false</isBad>
+        <stages>
+            <li>
+                <statFactors>
+                    <InjuryHealingFactor>1.25</InjuryHealingFactor>
+                    <ImmunityGainSpeed>1.25</ImmunityGainSpeed>
+                </statFactors>
+                <painFactor>0.5</painFactor>
+            </li>
+        </stages>
+        <hediffClass>HediffWithComps</hediffClass>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <showRemainingTime>true</showRemainingTime>
+            </li>
+            <li Class="HediffCompProperties_DisappearsOnDeath"/>
+        </comps>
+    </HediffDef>
+</Defs>

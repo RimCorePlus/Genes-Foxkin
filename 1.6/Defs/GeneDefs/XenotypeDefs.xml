@@ -1,0 +1,66 @@
+<Defs>
+	<!--firefox-->
+	<XenotypeDef>
+		<defName>RCP_Firefox</defName>
+		<label>Firefox</label>
+		<description>Foxkin are xenohumans of unknown origin, easily distinguishable by their foxlike ears and tails. Their salivary glands produce powerful antibodies capable of closing wounds and boosting immunity.\n\nThough they are lousy in combat, they can call animals to their aid.</description>
+		<descriptionShort>Fox-like xenohumans with antigenic saliva.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/Foxkin</iconPath>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>AFU_BA_FluffyFoxTail</li>
+			<li>AFU_HA_FoxEar</li>
+			<li>AnimalWarcall</li>
+			<li>RCP_FoxkinGene</li>
+			<li>RCP_LickWounds</li>
+			<li>Hair_LightOrange</li>
+			<li>MeleeDamage_Weak</li>
+			<li>Nearsighted</li>
+			<li>Sleepy</li>
+		</genes>
+	</XenotypeDef>
+	<!--snowfox-->
+	<XenotypeDef>
+		<defName>RCP_Snowfox</defName>
+		<label>Snowfox</label>
+		<description>Foxkin are xenohumans of unknown origin, easily distinguishable by their foxlike ears and tails. Their salivary glands produce powerful antibodies capable of closing wounds and boosting immunity.\n\nThough they are lousy in combat, they can call animals to their aid.</description>
+		<descriptionShort>Fox-like xenohumans with antigenic saliva.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/Foxkin</iconPath>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>AFU_BA_FluffyFoxTail</li>
+			<li>AFU_HA_FoxEar</li>
+			<li>AnimalWarcall</li>
+			<li>RCP_FoxkinGene</li>
+			<li>RCP_LickWounds</li>
+			<li>Hair_SnowWhite</li>
+			<li>MeleeDamage_Weak</li>
+			<li>Nearsighted</li>
+			<li>Sleepy</li>
+		</genes>
+	</XenotypeDef>
+	<!--snowfox-->
+	<XenotypeDef>
+		<defName>RCP_Hemofox</defName>
+		<label>Hemofox</label>
+		<description>Foxkin are xenohumans of unknown origin, easily distinguishable by their foxlike ears and tails. Their salivary glands produce powerful antibodies capable of closing wounds and boosting immunity.\n\nThis is a rare variant of unknown origin, capable of resurrecting the dead.</description>
+		<descriptionShort>Fox-like xenohumans with antigenic saliva.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/Foxkin</iconPath>
+		<genes>
+			<li MayRequire="oppey.eyegenes2">Eyes_Crimson</li>
+			<li MayRequire="oppey.eyegenes2">Eyes_DeepRed</li>
+			<li>AFU_BA_NineTailedFox</li>
+			<li>AFU_HA_FoxEar</li>
+			<li>Bloodfeeder</li>
+			<li>RCP_FoxkinGene</li>
+			<li>RCP_LickWounds</li>
+			<li>RCP_ResurrectGene</li>
+			<li>Eyes_Red</li>
+			<li>Hair_Grayless</li>
+			<li>Hair_InkBlack</li>
+			<li>Hemogenic</li>
+			<li>MoveSpeed_VeryQuick</li>
+			<li>Skin_Melanin2</li>
+		</genes>
+	</XenotypeDef>
+</Defs>

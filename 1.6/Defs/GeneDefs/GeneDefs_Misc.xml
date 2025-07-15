@@ -1,0 +1,103 @@
+<Defs>
+    <GeneDef>
+        <defName>RCP_FoxkinGene</defName>
+        <label>vulpette</label>
+        <description />
+        <iconPath>UI/Icons/Xenotypes/Foxkin</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>999</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <customEffectDescriptions>
+            <li>Always female.</li>
+            <li>10% increased global skill decay.</li>
+            <li>No medical skill decay.</li>
+        </customEffectDescriptions>
+        <forcedHeadTypes>
+            <li>Female_AverageNormal</li>
+            <li>Female_AveragePointy</li>
+        </forcedHeadTypes>
+        <bodyType>Standard</bodyType>
+        <modExtensions>
+            <!--this is not working as stated on the wiki, need to poke the EBSG author-->
+            <li Class="EBSGFramework.EBSGExtension">
+                <genderByAge>
+                    <Female />
+                </genderByAge>
+            </li>
+        </modExtensions>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>fox</symbol>
+                </li>
+                <li>
+                    <symbol>vulp</symbol>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+        <exclusionTags>
+            <li>AG_Gender</li>
+            <li>BodyType</li>
+            <li>Gender</li>
+        </exclusionTags>
+    </GeneDef>
+    <GeneDef>
+        <defName>RCP_LickWounds</defName>
+        <label>lick wounds</label>
+        <description>Carriers of this gene have powerful antibodies in their saliva capable of healing wounds and boosting immunity. These antibodies take time to recover.</description>
+        <iconPath>UI/Icons/Genes/Gene_LickWound</iconPath>
+        <displayCategory>Ability</displayCategory>
+        <abilities>
+            <li>RCP_LickWounds</li>
+        </abilities>
+        <descriptionHyperlinks>
+            <AbilityDef>RCP_LickWounds</AbilityDef>
+        </descriptionHyperlinks>
+        <biostatMet>-2</biostatMet>
+        <biostatCpx>1</biostatCpx>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>heal</symbol>
+                </li>
+                <li>
+                    <symbol>tend</symbol>
+                </li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li>
+                    <symbol>licker</symbol>
+                </li>
+                <li>
+                    <symbol>spit</symbol>
+                </li>
+                <li>
+                    <symbol>tongue</symbol>
+                </li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+    <GeneDef>
+        <defName>RCP_ResurrectGene</defName>
+        <label>resurrector</label>
+        <description>Carriers of this gene can revive the dead.</description>
+        <iconPath>UI/Abilities/Resurrect</iconPath>
+        <abilities>
+            <li>RCP_Resurrect</li>
+        </abilities>
+        <biostatMet>-3</biostatMet>
+        <biostatCpx>1</biostatCpx>
+        <descriptionHyperlinks>
+            <AbilityDef>RCP_Resurrect</AbilityDef>
+        </descriptionHyperlinks>
+        <displayCategory>Hemogen</displayCategory>
+        <prerequisite>Hemogenic</prerequisite>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>hemo</symbol>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+</Defs>
