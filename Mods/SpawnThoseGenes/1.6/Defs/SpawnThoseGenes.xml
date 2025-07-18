@@ -1,0 +1,40 @@
+<Defs>
+    <SpawnThoseGenes.SpawnThoseGenesXenotypes>
+        <defName>RCP_Firefox</defName>
+        <Groups>
+            <li MayRequire="oppey.eyegenes2">
+                <Endogenes>
+                    <Eyes_Brown>1</Eyes_Brown>
+                    <Eyes_DarkBrown>1</Eyes_DarkBrown>
+                    <Eyes_LightBrown>1</Eyes_LightBrown>
+                    <Eyes_Orange>0.5</Eyes_Orange>
+                </Endogenes>
+            </li>
+        </Groups>
+    </SpawnThoseGenes.SpawnThoseGenesXenotypes>
+    <SpawnThoseGenes.SpawnThoseGenesXenotypes>
+        <defName>RCP_Snowfox</defName>
+        <Groups>
+            <li MayRequire="oppey.eyegenes2">
+                <Endogenes>
+                    <Eyes_Cyan>1</Eyes_Cyan>
+                    <Eyes_LightBlue>1</Eyes_LightBlue>
+                    <Eyes_SkyBlue>1</Eyes_SkyBlue>
+                    <Eyes_White>0.5</Eyes_White>
+                </Endogenes>
+            </li>
+        </Groups>
+    </SpawnThoseGenes.SpawnThoseGenesXenotypes>
+    <SpawnThoseGenes.SpawnThoseGenesXenotypes>
+        <defName>RCP_Hemofox</defName>
+        <Groups>
+            <li MayRequire="oppey.eyegenes2">
+                <Xenogenes>
+                    <Eyes_Crimson>1</Eyes_Crimson>
+                    <Eyes_DeepRed>1</Eyes_DeepRed>
+                    <Eyes_Red>1</Eyes_Red>
+                </Xenogenes>
+            </li>
+        </Groups>
+    </SpawnThoseGenes.SpawnThoseGenesXenotypes>
+</Defs>

@@ -37,7 +37,8 @@
 		</v1.6>
 	</modDependenciesByVersion>
 	<loadAfter>
-		<li>RCP.Genes</li>
 		<li>jintuzilamian.gene.xenocosmetic</li>
+		<li>nera.spawnthosegenes</li>
+		<li>RCP.Genes</li>
 	</loadAfter>
 </ModMetaData>
