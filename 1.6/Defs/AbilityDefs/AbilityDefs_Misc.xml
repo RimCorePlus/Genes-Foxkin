@@ -14,7 +14,7 @@
         <displayOrder>400</displayOrder>
         <hostile>false</hostile>
         <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
-        <cooldownTicksRange>15000</cooldownTicksRange>
+        <cooldownTicksRange>60000~180000</cooldownTicksRange>
         <statBases>
             <Ability_Duration>250</Ability_Duration>
         </statBases>
