@@ -1,47 +1,5 @@
 <Defs>
     <GeneDef>
-        <defName>RCP_FoxkinGene</defName>
-        <label>vulpette</label>
-        <description />
-        <iconPath>UI/Icons/Xenotypes/Foxkin</iconPath>
-        <displayCategory>Miscellaneous</displayCategory>
-        <displayOrderInCategory>999</displayOrderInCategory>
-        <biostatMet>1</biostatMet>
-        <customEffectDescriptions>
-            <li>Always female.</li>
-            <li>10% increased global skill decay.</li>
-            <li>No medical skill decay.</li>
-        </customEffectDescriptions>
-        <forcedHeadTypes>
-            <li>Female_AverageNormal</li>
-            <li>Female_AveragePointy</li>
-        </forcedHeadTypes>
-        <bodyType>Standard</bodyType>
-        <modExtensions>
-            <!--this is not working as stated on the wiki, need to poke the EBSG author-->
-            <li Class="EBSGFramework.EBSGExtension">
-                <genderByAge>
-                    <Female />
-                </genderByAge>
-            </li>
-        </modExtensions>
-        <symbolPack>
-            <prefixSymbols>
-                <li>
-                    <symbol>fox</symbol>
-                </li>
-                <li>
-                    <symbol>vulp</symbol>
-                </li>
-            </prefixSymbols>
-        </symbolPack>
-        <exclusionTags>
-            <li>AG_Gender</li>
-            <li>BodyType</li>
-            <li>Gender</li>
-        </exclusionTags>
-    </GeneDef>
-    <GeneDef>
         <defName>RCP_LickWounds</defName>
         <label>lick wounds</label>
         <description>Carriers of this gene have powerful antibodies in their saliva capable of healing wounds and boosting immunity. These antibodies take time to recover.</description>

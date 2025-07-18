@@ -1,0 +1,44 @@
+<Patch>
+    <Operation Class="PatchOperationConditional">
+        <xpath>//GeneDef[defName="RCP_FemaleGene"]</xpath>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs</xpath>
+            <value>
+                <GeneDef>
+                    <defName>RCP_FemaleGene</defName>
+                    <label>always female</label>
+                    <description>Carriers of this gene are always female.</description>
+                    <iconPath>UI/Icons/Xenotypes/Foxkin</iconPath>
+                    <displayCategory>Miscellaneous</displayCategory>
+                    <displayOrderInCategory>999</displayOrderInCategory>
+                    <forcedHeadTypes>
+                        <li>Female_AverageNormal</li>
+                        <li>Female_AveragePointy</li>
+                    </forcedHeadTypes>
+                    <!--this doesn't work, waititng to hear back from framework author-->
+                    <geneClass>EBSGFramework.HediffAdder</geneClass>
+                    <modExtensions>
+                        <li Class="EBSGFramework.EBSGExtension">
+                            <genderByAge>
+                                <Female />
+                            </genderByAge>
+                        </li>
+                    </modExtensions>
+                    <symbolPack>
+                        <prefixSymbols>
+                            <li>
+                                <symbol>fem</symbol>
+                                <symbol>gyno</symbol>
+                            </li>
+                        </prefixSymbols>
+                    </symbolPack>
+                    <exclusionTags>
+                        <li>AG_Gender</li>
+                        <li>EBSGGenderChange</li>
+                        <li>Gender</li>
+                    </exclusionTags>
+                </GeneDef>
+            </value>
+        </nomatch>
+    </Operation>
+</Patch>
