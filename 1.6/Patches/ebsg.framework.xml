@@ -15,7 +15,6 @@
                         <li>Female_AverageNormal</li>
                         <li>Female_AveragePointy</li>
                     </forcedHeadTypes>
-                    <!--this doesn't work, waititng to hear back from framework author-->
                     <geneClass>EBSGFramework.HediffAdder</geneClass>
                     <modExtensions>
                         <li Class="EBSGFramework.EBSGExtension">
