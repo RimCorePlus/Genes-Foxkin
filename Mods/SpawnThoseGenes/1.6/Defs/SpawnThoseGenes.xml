@@ -25,16 +25,4 @@
             </li>
         </Groups>
     </SpawnThoseGenes.SpawnThoseGenesXenotypes>
-    <SpawnThoseGenes.SpawnThoseGenesXenotypes>
-        <defName>RCP_Hemofox</defName>
-        <Groups>
-            <li MayRequire="oppey.eyegenes2">
-                <Xenogenes>
-                    <Eyes_Crimson>1</Eyes_Crimson>
-                    <Eyes_DeepRed>1</Eyes_DeepRed>
-                    <Eyes_Red>1</Eyes_Red>
-                </Xenogenes>
-            </li>
-        </Groups>
-    </SpawnThoseGenes.SpawnThoseGenesXenotypes>
 </Defs>

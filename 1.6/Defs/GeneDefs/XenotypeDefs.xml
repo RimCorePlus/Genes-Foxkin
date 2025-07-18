@@ -11,11 +11,11 @@
 			<li>AFU_BA_FluffyFoxTail</li>
 			<li>AFU_HA_FoxEar</li>
 			<li>AnimalWarcall</li>
-			<li>RCP_FemaleGene</li>
-			<li>RCP_LickWounds</li>
 			<li>Hair_LightOrange</li>
 			<li>MeleeDamage_Weak</li>
 			<li>Nearsighted</li>
+			<li>RCP_FemaleGene</li>
+			<li>RCP_LickWounds</li>
 			<li>Sleepy</li>
 		</genes>
 	</XenotypeDef>
@@ -31,11 +31,11 @@
 			<li>AFU_BA_FluffyFoxTail</li>
 			<li>AFU_HA_FoxEar</li>
 			<li>AnimalWarcall</li>
-			<li>RCP_FemaleGene</li>
-			<li>RCP_LickWounds</li>
 			<li>Hair_SnowWhite</li>
 			<li>MeleeDamage_Weak</li>
 			<li>Nearsighted</li>
+			<li>RCP_FemaleGene</li>
+			<li>RCP_LickWounds</li>
 			<li>Sleepy</li>
 		</genes>
 	</XenotypeDef>
@@ -47,19 +47,17 @@
 		<descriptionShort>Fox-like xenohumans with antigenic saliva.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/Foxkin</iconPath>
 		<genes>
-			<li MayRequire="oppey.eyegenes2">Eyes_Crimson</li>
-			<li MayRequire="oppey.eyegenes2">Eyes_DeepRed</li>
 			<li>AFU_BA_NineTailedFox</li>
 			<li>AFU_HA_FoxEar</li>
 			<li>Bloodfeeder</li>
-			<li>RCP_FemaleGene</li>
-			<li>RCP_LickWounds</li>
-			<li>RCP_ResurrectGene</li>
 			<li>Eyes_Red</li>
 			<li>Hair_Grayless</li>
 			<li>Hair_InkBlack</li>
 			<li>Hemogenic</li>
 			<li>MoveSpeed_VeryQuick</li>
+			<li>RCP_FemaleGene</li>
+			<li>RCP_LickWounds</li>
+			<li>RCP_ResurrectGene</li>
 			<li>Skin_Melanin2</li>
 		</genes>
 	</XenotypeDef>

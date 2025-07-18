@@ -1,5 +1,0 @@
-<Patch>
-    <Operation Class="PatchOperationRemove">
-        <xpath>//XenotypeDef[starts-with(defName,"RCP_") and contains(defName,"fox")]/genes/li[starts-with(.,"Eyes_")]</xpath>
-    </Operation>
-</Patch>
