@@ -37,8 +37,10 @@
 		</v1.6>
 	</modDependenciesByVersion>
 	<loadAfter>
+		<li>EBSG.Framework</li>
 		<li>jintuzilamian.gene.xenocosmetic</li>
 		<li>nera.spawnthosegenes</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 		<li>RCP.Genes</li>
 	</loadAfter>
 </ModMetaData>
