@@ -17,25 +17,13 @@
 			<displayName>AFU Cosmetic Gene Expanded</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2880942803</steamWorkshopUrl>
 		</li>
+		<li>
+			<packageId>EBSG.Framework</packageId>
+			<displayName>Expanded Biotech Style Genes Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3112549163</steamWorkshopUrl>
+			<downloadUrl>https://github.com/KonradHeinser/EBSGFramework</downloadUrl>
+		</li>
 	</modDependencies>
-	<modDependenciesByVersion>
-		<v1.5>
-			<li>
-				<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
-				<displayName>Vanilla Expanded Framework</displayName>
-				<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
-				<downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
-			</li>
-		</v1.5>
-		<v1.6>
-			<li>
-				<packageId>EBSG.Framework</packageId>
-				<displayName>Expanded Biotech Style Genes Framework</displayName>
-				<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3112549163</steamWorkshopUrl>
-				<downloadUrl>https://github.com/KonradHeinser/EBSGFramework</downloadUrl>
-			</li>
-		</v1.6>
-	</modDependenciesByVersion>
 	<loadAfter>
 		<li>EBSG.Framework</li>
 		<li>jintuzilamian.gene.xenocosmetic</li>
