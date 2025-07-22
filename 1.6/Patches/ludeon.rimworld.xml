@@ -26,6 +26,69 @@
 			<RCP_Snowfox>0.05</RCP_Snowfox>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>//PawnKindDef[defName="Tribal_Archer"]/xenotypeSet/xenotypeChances</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>//PawnKindDef[defName="Tribal_Archer"]</xpath>
+			<value>
+				<xenotypeSet>
+					<xenotypeChances>
+						<RCP_FireFox>0.1</RCP_FireFox>
+						<RCP_Snowfox>0.1</RCP_Snowfox>
+					</xenotypeChances>
+				</xenotypeSet>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>//PawnKindDef[defName="Tribal_Archer"]/xenotypeSet/xenotypeChances</xpath>
+			<value>
+				<RCP_FireFox>0.1</RCP_FireFox>
+				<RCP_Snowfox>0.1</RCP_Snowfox>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>//PawnKindDef[defName="Tribal_Hunter"]/xenotypeSet/xenotypeChances</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>//PawnKindDef[defName="Tribal_Hunter"]</xpath>
+			<value>
+				<xenotypeSet>
+					<xenotypeChances>
+						<RCP_FireFox>0.1</RCP_FireFox>
+						<RCP_Snowfox>0.1</RCP_Snowfox>
+					</xenotypeChances>
+				</xenotypeSet>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>//PawnKindDef[defName="Tribal_Hunter"]/xenotypeSet/xenotypeChances</xpath>
+			<value>
+				<RCP_FireFox>0.1</RCP_FireFox>
+				<RCP_Snowfox>0.1</RCP_Snowfox>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>//PawnKindDef[defName="Tribal_HeavyArcher"]/xenotypeSet/xenotypeChances</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>//PawnKindDef[defName="Tribal_HeavyArcher"]</xpath>
+			<value>
+				<xenotypeSet>
+					<xenotypeChances>
+						<RCP_FireFox>0.1</RCP_FireFox>
+						<RCP_Snowfox>0.1</RCP_Snowfox>
+					</xenotypeChances>
+				</xenotypeSet>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>//PawnKindDef[defName="Tribal_HeavyArcher"]/xenotypeSet/xenotypeChances</xpath>
+			<value>
+				<RCP_FireFox>0.1</RCP_FireFox>
+				<RCP_Snowfox>0.1</RCP_Snowfox>
+			</value>
+		</match>
+	</Operation>
 	<!--add sanguophage double-xenos-->
 	<Operation Class="PatchOperationAdd">
 		<xpath>//XenotypeDef[defName="Sanguophage"]/doubleXenotypeChances</xpath>
