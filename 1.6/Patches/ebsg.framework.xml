@@ -8,9 +8,9 @@
                     <defName>RCP_FemaleGene</defName>
                     <label>always female</label>
                     <description>Carriers of this gene are always female.</description>
-                    <iconPath>UI/Icons/Xenotypes/Foxkin</iconPath>
+                    <iconPath>UI/Icons/Genes/Gene_FemaleOnly</iconPath>
                     <displayCategory>Miscellaneous</displayCategory>
-                    <displayOrderInCategory>999</displayOrderInCategory>
+                    <displayOrderInCategory>9999</displayOrderInCategory>
                     <forcedHeadTypes>
                         <li>Female_AverageNormal</li>
                         <li>Female_AveragePointy</li>
