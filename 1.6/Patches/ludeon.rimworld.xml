@@ -89,14 +89,7 @@
 			</value>
 		</match>
 	</Operation>
-	<!--add sanguophage double-xenos-->
-	<Operation Class="PatchOperationAdd">
-		<xpath>//XenotypeDef[defName="Sanguophage"]/doubleXenotypeChances</xpath>
-		<value>
-			<RCP_Firefox>0.02</RCP_Firefox>
-			<RCP_Snowfox>0.02</RCP_Snowfox>
-		</value>
-	</Operation>
+	<!-- DLC Integration -->
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Ideology</li>
