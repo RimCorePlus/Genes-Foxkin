@@ -33,8 +33,8 @@
 			<value>
 				<xenotypeSet>
 					<xenotypeChances>
-						<RCP_Firefox>0.8</RCP_Firefox>
-						<RCP_Snowfox>0.8</RCP_Snowfox>
+						<RCP_Firefox>0.08</RCP_Firefox>
+						<RCP_Snowfox>0.08</RCP_Snowfox>
 					</xenotypeChances>
 				</xenotypeSet>
 			</value>
@@ -42,8 +42,8 @@
 		<match Class="PatchOperationAdd">
 			<xpath>//PawnKindDef[defName="Tribal_Archer"]/xenotypeSet/xenotypeChances</xpath>
 			<value>
-				<RCP_Firefox>0.8</RCP_Firefox>
-				<RCP_Snowfox>0.8</RCP_Snowfox>
+				<RCP_Firefox>0.08</RCP_Firefox>
+				<RCP_Snowfox>0.08</RCP_Snowfox>
 			</value>
 		</match>
 	</Operation>
@@ -54,8 +54,8 @@
 			<value>
 				<xenotypeSet>
 					<xenotypeChances>
-						<RCP_Firefox>0.8</RCP_Firefox>
-						<RCP_Snowfox>0.8</RCP_Snowfox>
+						<RCP_Firefox>0.08</RCP_Firefox>
+						<RCP_Snowfox>0.08</RCP_Snowfox>
 					</xenotypeChances>
 				</xenotypeSet>
 			</value>
@@ -63,8 +63,8 @@
 		<match Class="PatchOperationAdd">
 			<xpath>//PawnKindDef[defName="Tribal_Hunter"]/xenotypeSet/xenotypeChances</xpath>
 			<value>
-				<RCP_Firefox>0.8</RCP_Firefox>
-				<RCP_Snowfox>0.8</RCP_Snowfox>
+				<RCP_Firefox>0.08</RCP_Firefox>
+				<RCP_Snowfox>0.08</RCP_Snowfox>
 			</value>
 		</match>
 	</Operation>
@@ -75,8 +75,8 @@
 			<value>
 				<xenotypeSet>
 					<xenotypeChances>
-						<RCP_Firefox>0.8</RCP_Firefox>
-						<RCP_Snowfox>0.8</RCP_Snowfox>
+						<RCP_Firefox>0.08</RCP_Firefox>
+						<RCP_Snowfox>0.08</RCP_Snowfox>
 					</xenotypeChances>
 				</xenotypeSet>
 			</value>
@@ -84,8 +84,8 @@
 		<match Class="PatchOperationAdd">
 			<xpath>//PawnKindDef[defName="Tribal_HeavyArcher"]/xenotypeSet/xenotypeChances</xpath>
 			<value>
-				<RCP_Firefox>0.8</RCP_Firefox>
-				<RCP_Snowfox>0.8</RCP_Snowfox>
+				<RCP_Firefox>0.08</RCP_Firefox>
+				<RCP_Snowfox>0.08</RCP_Snowfox>
 			</value>
 		</match>
 	</Operation>
