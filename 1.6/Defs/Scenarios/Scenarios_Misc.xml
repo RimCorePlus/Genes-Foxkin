@@ -99,6 +99,7 @@
                 </li>
                 <li Class="ScenPart_StartingAnimal">
                     <def>StartingAnimal</def>
+                    <animalKind>Fox_Fennec</animalKind>
                     <count>3</count>
                     <bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
                 </li>
