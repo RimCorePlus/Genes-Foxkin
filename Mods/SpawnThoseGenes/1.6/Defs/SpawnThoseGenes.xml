@@ -10,6 +10,12 @@
                     <Eyes_Orange>0.5</Eyes_Orange>
                 </Endogenes>
             </li>
+            <li>
+                <Endogenes>
+                    <Hair_SandyBlonde>1</Hair_SandyBlonde>
+                    <Hair_LightOrange>1</Hair_LightOrange>
+                </Endogenes>
+            </li>
         </Groups>
     </SpawnThoseGenes.SpawnThoseGenesXenotypes>
     <SpawnThoseGenes.SpawnThoseGenesXenotypes>
@@ -21,6 +27,27 @@
                     <Eyes_LightBlue>1</Eyes_LightBlue>
                     <Eyes_SkyBlue>1</Eyes_SkyBlue>
                     <Eyes_White>0.5</Eyes_White>
+                </Endogenes>
+            </li>
+            <li>
+                <Endogenes>
+                    <Hair_SnowWhite>1</Hair_SnowWhite>
+                </Endogenes>
+            </li>
+        </Groups>
+    </SpawnThoseGenes.SpawnThoseGenesXenotypes>
+    <SpawnThoseGenes.SpawnThoseGenesXenotypes>
+        <defName>RCP_Hemofox</defName>
+        <Groups>
+            <li>
+                <Endogenes>
+                    <Eyes_Red>1</Eyes_Red>
+                </Endogenes>
+            </li>
+            <li>
+                <Endogenes>
+                    <Hair_DarkBlack>1</Hair_DarkBlack>
+                    <Hair_InkBlack>1</Hair_InkBlack>
                 </Endogenes>
             </li>
         </Groups>

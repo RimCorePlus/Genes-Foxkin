@@ -1,0 +1,5 @@
+<Patch>
+    <Operation Class="PatchOperationRemove">
+        <xpath>//XenotypeDef[(contains(defName,"fox") and contains(defName,"RCP_"))]/genes/li[starts-with(.,"Hair_") or starts-with(.,"Eyes_") and not(contains(.,"Only") or contains(.,"Grayless"))]</xpath>
+    </Operation>
+</Patch>
