@@ -1,10 +1,10 @@
 <Patch>
     <Operation Class="PatchOperationConditional">
-        <xpath>//GeneDef[defName="RCP_Black_Hair"]</xpath>
+        <xpath>//GeneDef[defName="RCP_HairBlack"]</xpath>
         <match Class="PatchOperationAdd">
             <xpath>//SpawnThoseGenes.SpawnThoseGenesXenotypes[defName="RCP_Firefox"]/Groups/li[2]/Endogenes</xpath>
             <value>
-                <RCP_Pastel_Orange_Hair>1</RCP_Pastel_Orange_Hair>
+                <RCP_HairOrangePastel>1</RCP_HairOrangePastel>
             </value>
         </match>
     </Operation>
